@@ -3,6 +3,12 @@
     $first_name = $_GET['first_name'];
     $last_name = $_GET['last_name'];
 ?>
+<?php
+$x=14;
+$y=8;
+echo $result = intdiv($x, $y); //divides 14 by 8 and gives the whole number that 8 goes in 14.
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
